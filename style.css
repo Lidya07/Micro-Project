@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+html * {
+    font-family: "Plus Jakarta Sans", sans-serif;   
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    background-color: #43936C;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.3s ease;
+}
+
+.link-nav-text {
+    text-decoration: none;
+    color: #ffff;
+    transition: 0.3s ease;
+}
+
+.link-nav-text:hover {
+    color: #C0DBCE;
+    transition: 0.3s ease;
+}
+
+.link-nav-text:active {
+    transform: scale(0.92);
+    transition: 0.3s ease;
+}
+
+.link-nav-text:focus {
+    transform: scale(0.5);
+    transition: 0.3s ease;
+}
+
+
+.sticky-nav {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    right: 50%;
+    left: 50%;
+}
+
+nav .mt-3 a{
+    text-decoration: none;
+    color: #214936;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.fw-sm {
+    font-weight: 200;
+}
+
+.fw-df {
+    font-weight: 400;
+}
+
+.fw-md {
+    font-weight: 500;
+}
+
+.fw-lg {
+    font-weight: 600;
+}
+
+.fw-xl {
+    font-weight: 700;
+}
+
+.ellipse-left {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.ellipse-center {
+    position: absolute;
+    z-index: -1;
+}
+
+.ellipse-right {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+
+}
+
+.vl {
+    border: 1px solid rgb(255, 255, 255);
+    height: 110px;
+  }
+
+
+.login{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section .imgbx{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+section .imgbx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section .contentbx {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-left: 28%;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+section .contentbx .formbx {
+    width: 80%;
+}
+
+section .contentbx .formbx h2 {
+    color: #214936;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+
+}
+
+section .contentbx .formbx .inputbx {
+    margin-bottom: 10px;
+
+}
+
+.forgot a {
+    font-size: 14px;
+    color: #214936;
+    
+}
+
+.inputbx a{
+    color: #214936;
+}
+
+section .contentbx .formbx .continue p{
+    padding-left: 42%;
+}
+
+section .contentbx .formbx .inputbx span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #214936;
+    font-weight: 500;
+}
+
+section .contentbx .formbx .agree{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+section .contentbx .formbx .inputbx input{
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid black;
+    outline: none;
+    border: none;
+} 
+
+.inputbx .submit{
+    background: #43936C;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: medium;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.inputbx .submit:hover{
+    background: #347153;
+}
+
+.inputbx .btn{
+    width: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #214936;
+}
+
+section .contentbx .formbx .inputbx input[type="submit"]{
+    background: #43936C;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: medium;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+section .contentbx .formbx .inputbx input[type="submit"]:hover{
+    background: #347153;
+}
+
+
+.inputbx .submit a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.btn img{
+    width: 40px;
+    height: 40px;
+}
+
+.inputbx p{
+    margin-top: 15px;
+    padding-left: 30%;
+}
+
+.carousel{
+    background-color: #e4f3ed;
+}
+
+.text-center h1{
+    color:#214936;
+    padding-top: 50px;
+    font-weight: 600;
+}
+
+.text-center .text1{
+    padding-top: 15px;
+    font-weight: 500;
+    color: #214936;
+}
+
+.text-center img{
+    padding-top: 50px;
+}
+
+.text-center h2{
+    padding-top: 40px;
+    color: #214936;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.text-center .text2{
+    padding-top: 15px;
+}
+
+.dot-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+}
+  
+.dot:first-child {
+    width: 40px; 
+    border-radius: 20%;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 95%;
+    margin: 0 5px 50px 5px; 
+}
+
+.bg-primary {
+  background: #2C5148;
+}
+
+.bg-secondary {
+  background: #7d9a93;
+}
+
+.education{
+    background: #e4f3ed;
+}
+
+.education .text-center h1{
+    margin-top: 60px;
+}
+
+.education .text-center .text1{
+    margin-top: 40px;
+}
+
+
+.text-center .lanjut{
+    border-radius: 50px;
+    border: 1px solid #347153;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.text-center .lanjut:hover{
+    background-color: #347153;
+}
+
+.text-center .lanjut a:hover{
+    color: #fff;
+}
+
+.text-center .lanjut a{
+    text-decoration: none;
+    color: #214936;
+}
+
+.mainpage h1{
+    margin-left: 45px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+
+.artikelcard .kategori{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.artikelcard .kategori li{
+    display: inline-block;
+    margin-left: 45px;
+    
+}
+
+.artikelcard .kategori li a{
+    text-decoration: none;
+    color: #2C5148;
+}
+
+.underline{
+    border-bottom: 2px solid #214936;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+
+}
+
+.card{
+    width: 35%;
+    background: #ff0000;
+    border-radius: 20px;
+    box-shadow: 0px 15px 30px rgb(0, 0, 0 0.3);
+    overflow: hidden;
+
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2C5148;
+}
+
+.card-content p{
+    color: #2C5148;
+    margin-bottom: 20px;
+}
+
+.card-content a img{
+    width: 25px;
+    padding-left: 5px;
+}
+
+.card-button{
+    display: inline-block;
+    color: #2C5148;
+    text-decoration: none;
+    border-radius: 90px;
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 1px solid #2C5148;
+    margin-left: 75%;
+}
+

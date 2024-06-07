@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finelify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="container d-flex justify-content-between mt-4">
+        <div class="mt-3">
+            <h4>Finelify</h4>
+        </div>
+        <div class="sticky-nav animate__animated animate__fadeInDownBig">
+            <ul class="d-flex justify-content-center align-items-center py-3 px-5 rounded-4 shadow">
+                <li><a href="#home" class="link-nav-text pt-1 px-3 fw-lg">Home</a></li>
+                <li><a href="#ruang_cerita" class="link-nav-text pt-1 px-3 fw-lg">Ruang<span style="color: #43936C;">/</span>Cerita</a></li>
+                <li><a href="#artikel" class="link-nav-text pt-1 px-3 fw-lg">Artikel</a></li>
+                <li><a href="#tentang" class="link-nav-text pt-1 px-3 fw-lg">Tentang</a></li>
+            </ul>
+        </div>
+        <div class="mt-3">
+            <a href="login.html">Masuk</a>
+            
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="hero d-flex justify-content-center align-items-center flex-column" style="height: 70vh; top: 100%;">
+            <h1 style="
+                color: #2C5148;
+                max-width: 400px;
+                text-align: center;
+                ">
+                Bagaimana <span class="fw-xl">Perasaan</span> <span class="fw-xl">Kamu</span> Hari Ini?
+            </h1>
+            <div class="container my-4 py-3 px-3 shadow rounded-4 bg-white" style="max-width: 600px;">
+                <div class="form-floating">
+                    <textarea class="form-control" style="background-color: #f0f0f0;" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2 ">Ceritakan perasaanmu</label>
+                </div>
+                <div class="d-flex justify-content-between mt-4">
+                    <a class="d-flex justify-content-center btn flex-end" href="">
+                       <span class="fw-lg me-2">Tolong Aku</span><span class="material-symbols-outlined">sentiment_dissatisfied</span>
+                    </a>
+                    <a class="d-flex justify-content-center btn flex-end btn-primary" href="" style="background-color: #43936C; border: none;">
+                        <span class="fw-lg me-2">Kirim</span><span class="material-symbols-outlined">send</span>
+                    </a>
+                </div>
+            </div>
+            <img src="assets/ellipse.png" class="ellipse-left" alt="">
+            <img src="assets/ellipse.png" class="ellipse-center" alt="">
+            <img src="assets/ellipse.png" class="ellipse-right" alt="">
+        </div>
+        <div class="mb-5 rounded-4 animate__animated animate__fadeInUp" style="background-color: #43936C;">
+            <div class="d-flex justify-content-center align-items-center px-5 py-4">
+                <div class="ps1">
+                    <h4 class="text-white mb-3" style="text-align: end;">Kami Siap Mendengarkanmu</h4>
+                    <h6 class="text-white" style="text-align: end;">Ceritakanlah semua keluh kesahmu. Kami akan mendengarkan dan memberikan jawaban terbaik untukmu sebisa mungkin.</h6>
+                </div>
+                <div class="vl mx-3"></div>
+                <div class="pe-1">
+                    <h4 class="text-white mb-3" style="text-align: start;">Menjaga Privasi Kamu</h4>
+                    <h6 class="text-white">Kami berkomitmen untuk menjaga privasi setiap cerita darimu sehingga dapat kami pastikan informasi pribadimu aman. </h6>
+                </div>
+            </div>
+        </div>   
+    </main>
+
+    <section class="carousel" id="carousel">
+
+        <div class="text-center">
+            <h1>Mari Raih Kebahagiaanmu</h1>
+            <p class="text1">Butuh pertolongan? Kami menyediakan beberapa jenis <br>
+            pertolongan untuk kesehatan mentalmu.</p>
+            <img src="assets/logo.png" alt="">
+        </div>
+        <div class="text-center">
+            <h2>Peduli Ai</h2>
+            <p class="text2">Sebuah kecerdasan buatan dari kami untuk membantu kamu mengambil keputusan dalam <br>
+                menghadapai kondisi masalah kesehatan mental yang kamu alami</p>
+        </div>
+
+        <div class="dot-container d-flex justify-content-center gap-2 mt-5">
+            <div class="dot bg-primary"></div>
+            <div class="dot bg-secondary"></div>
+            <div class="dot bg-secondary"></div>
+            <div class="dot bg-secondary"></div>
+            <div class="dot bg-secondary"></div>
+            <div class="dot bg-secondary"></div>
+        </div>
+
+    <section>
+        <div style="width: 1440px; height: 1096px; padding-top: 64px; padding-bottom: 32px; padding-left: 64px; padding-right: 64px; justify-content: space-between; align-items: flex-start; display: inline-flex">
+            <div style="width: 651px; height: 651px; opacity: 0.40; background: #43936C; box-shadow: 200px 200px 200px; border-radius: 9999px; filter: blur(200px)"></div>
+            <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 38px; display: inline-flex">
+              <div style="width: 380px; color: #2C5148; font-size: 48px; font-family: Plus Jakarta Sans; font-weight: 600; line-height: 60px; word-wrap: break-word">Ruang Bercerita Untukmu</div>
+              <div style="width: 407px; color: #2C5148; font-size: 24px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 30px; word-wrap: break-word">Kamu layak untuk memiliki tempat bercerita yang aman dan nyaman.</div>
+            </div>
+            <div style="width: 882px; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15); justify-content: flex-start; align-items: flex-start; gap: 32px; display: flex">
+              <div style="width: 425px; height: 925px; position: relative; background: white; border-radius: 20px; overflow: hidden">
+                <img style="width: 1685px; height: 1123px; left: -707px; top: -1px; position: absolute" src="assets/Frame 31.png" />
+                <div style="width: 500px; height: 1120px; left: -37px; top: -97px; position: absolute; background: rgba(0, 0, 0, 0.50)"></div>
+                <div style="left: 37px; top: 492px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                  <div style="width: 333px; color: white; font-size: 64px; font-family: Plus Jakarta Sans; font-weight: 700; line-height: 80px; word-wrap: break-word">Konsultasi Psikiater</div>
+                  <div style="width: 349px; color: white; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 25px; word-wrap: break-word">Setiap orang pantas dan layak untuk merasakah kebahgaiaan dalam hidupnya. Jadi  jangan pernah berfikir untuk menyerah! mari kita raih kebahagiaan itu bersama - sama</div>
+                  <div style="width: 350px; padding-left: 10px; padding-right: 10px; padding-top: 16px; padding-bottom: 16px; border-radius: 100px; border: 0.50px white solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                    <div style="color: white; font-size: 24px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 30px; word-wrap: break-word">Konsultasi Sekarang</div>
+                  </div>
+                </div>
+              </div>
+              <div style="width: 425px; height: 925px; position: relative; background: white; box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15); border-radius: 20px; overflow: hidden">
+                <img style="width: 1992px; height: 1120px; left: -783px; top: -97px; position: absolute" src="assets/Frame 32.png" />
+                <div style="width: 500px; height: 1120px; left: -37px; top: -97px; position: absolute; background: rgba(0, 0, 0, 0.50)"></div>
+                <div style="left: 37px; top: 492px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
+                  <div style="width: 235px; color: white; font-size: 64px; font-family: Plus Jakarta Sans; font-weight: 700; line-height: 80px; word-wrap: break-word">Forum Diskusi</div>
+                  <div style="width: 349px; color: white; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 25px; word-wrap: break-word">Setiap orang pantas dan layak untuk merasakah kebahgaiaan dalam hidupnya. Jadi  jangan pernah berfikir untuk menyerah! mari kita raih kebahagiaan itu bersama - sama</div>
+                  <div style="width: 350px; padding-left: 10px; padding-right: 10px; padding-top: 16px; padding-bottom: 16px; border-radius: 100px; border: 0.50px white solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                    <div style="color: white; font-size: 24px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 30px; word-wrap: break-word">Bergabung dalam Forum</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="width: 700px; height: 700px; opacity: 0.40; background: #43936C; box-shadow: 200px 200px 200px; border-radius: 9999px; filter: blur(200px)"></div>
+            <div style="width: 450px; height: 450px; opacity: 0.40; background: #43936C; box-shadow: 200px 200px 200px; border-radius: 9999px; filter: blur(200px)"></div>
+          </div>
+    </section>
+
+
+
+
+    <section class="education">
+
+        <div class="text-center">
+            <h1>Apakah kita Telah Sadar Akan <br>
+            Kesehatan Mental?</h1>
+            <p class="text1">Kesehatan jiwa atau kesehatan mental adalah keadaan individu <br>
+            sejahtera menyadari potensi yang dimilikinya, mampu <br>
+             menanggulangi tekanan hidup normal, bekerja secara produktif, <br>
+             serta mampu memberikan kontribusi bagi lingkungannya.</p>
+        </div>
+
+        <div class="text-center">
+            <button class="lanjut">
+                <a href="">Pelajari lebih lanjut</a>
+            </button>
+        </div>
+
+
+    </section>
+
+    </section>
+
+    <section class="ruangcerita" id="ruangcerita">
+        <div style="width: 1357px; height: 32px; justify-content: center; align-items: flex-start; gap: 32px; display: inline-flex">
+            <div style="height: 32px; border-radius: 10px; justify-content: flex-end; align-items: center; gap: 10px; display: flex">
+              <div style="padding: 4px; border-radius: 100px; border: 1px #2C5148 solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div style="width: 24px; height: 24px; position: relative">
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                </div>
+              </div>
+              <div style="text-align: center; color: #2C5148; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 700; line-height: 25px; word-wrap: break-word">Apa itu Kesehatan Mental?</div>
+            </div>
+            <div style="width: 0px; align-self: stretch; border: 1px #2C5148 solid"></div>
+            <div style="height: 32px; border-radius: 10px; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
+              <div style="text-align: center; color: #2C5148; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 700; line-height: 25px; word-wrap: break-word">Ciri - Ciri Mental Illness</div>
+              <div style="padding: 4px; border-radius: 100px; border: 1px #2C5148 solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div style="width: 24px; height: 24px; position: relative">
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <img src="assets/Ornament.png" style="display: flex; align-items: center; justify-content: center;">
+          
+          <div style="width: 1357px; height: 32px; justify-content: center; align-items: flex-start; gap: 16px; display: inline-flex">
+            <div style="height: 32px; border-radius: 10px; justify-content: flex-end; align-items: center; gap: 10px; display: flex">
+              <div style="padding: 4px; border-radius: 100px; border: 1px #2C5148 solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div style="width: 24px; height: 24px; position: relative">
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                </div>
+              </div>
+              <div style="text-align: center; color: #2C5148; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 700; line-height: 25px; word-wrap: break-word">Penanganan Mental Illness</div>
+            </div>
+            <div style="width: 0px; align-self: stretch; border: 1px #2C5148 solid"></div>
+            <div style="height: 32px; border-radius: 10px; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
+              <div style="text-align: center; color: #2C5148; font-size: 20px; font-family: Plus Jakarta Sans; font-weight: 700; line-height: 25px; word-wrap: break-word">Stigma Kesehatan Mental</div>
+              <div style="padding: 4px; border-radius: 100px; border: 1px #2C5148 solid; justify-content: center; align-items: center; gap: 10px; display: flex">
+                <div style="width: 24px; height: 24px; position: relative">
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                  <div style="width: 10px; height: 10px; left: 7px; top: 7px; position: absolute; border: 2px #2C5148 solid"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="artikelcard" id="artikel">
+        
+        <div class="mainpage">
+            <h1>Artikel Seputar Kesehatan Mental</h1>
+
+            <div class="kategori">
+                <li><a href="#"><span class="underline">Terbaru</span></a></li>
+                <li><a href="#">Terpopuler</a></li>
+                <li><a href="#">Stigma</a></li>
+                <li><a href="">Tips</a></li>
+            </div>
+
+
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/1.png" alt="">
+                    <div class="card-content">
+                        <h2>Peduli Ai</h2>
+                        <p>Sebuah kecerdasan buatan dari kami untuk membantu kamu mengambil keputusan dalam menghadapai kondisi 
+                        masalah kesehatan mental yang anda alami.</p>
+                        <a href="" class="card-button">Buka
+                            <img src="assets/Frame 22.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/2.png" alt="">
+                    <div class="card-content">
+                        <h2>Krisis Kesehatan Mental Gen - Z Indonesia</h2>
+                        <p>Generasi Z merupakan tumpuan masa depan dan diharapkan akan berperan besar dalam 
+                        Indonesia Emas 2045. Namun banyak anak kelahiran athun 2000 - 2010 mengalami masalah kesehatan mental.</p>
+                        <a href="" class="card-button">Buka
+                            <img src="assets/Frame 22.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <section>
+            <div style="width: 1316px; height: 612px; position: relative">
+                <div style="width: 254px; height: 254px; left: 314px; top: 0px; position: absolute; background: #C0DBCE; border-radius: 9999px"></div>
+                <div style="width: 254px; height: 254px; left: 65px; top: 358px; position: absolute; background: #C0DBCE; border-radius: 9999px"></div>
+                <div style="width: 207.90px; height: 194px; left: 19.94px; top: 17px; position: absolute">
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                </div>
+                <div style="width: 207.90px; height: 194px; left: 417.40px; top: 422px; position: absolute">
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 180.04px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 157.53px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 135.03px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 0px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 105px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 202.54px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 21px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 126px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 45.01px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 112.52px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 22.50px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 90.02px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 0px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 42px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 147px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 63px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 168px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 84px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                  <div style="width: 5.36px; height: 5px; left: 67.51px; top: 189px; position: absolute; background: #777777; border-radius: 9999px"></div>
+                </div>
+                <div style="width: 758px; height: 516px; padding: 64px; left: 0px; top: 48px; position: absolute; background: #43936C; border-radius: 20px; flex-direction: column; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                  <div style="height: 248px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 32px; display: flex">
+                    <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 48px; display: flex">
+                      <div style="color: white; font-size: 72px; font-family: Plus Jakarta Sans; font-weight: 500; line-height: 96px; word-wrap: break-word">Tentang Kami</div>
+                    </div>
+                    <div style="align-self: stretch; height: 120px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
+                      <div style="width: 582px; color: white; font-size: 24px; font-family: Plus Jakarta Sans; font-weight: 400; word-wrap: break-word">Kami membangun website yang akan membantu menghadapi masalah kesehatan mentalmu dengan kecerdasan buatan demi mencapai kualitas hidupmu yang lebih baik.</div>
+                    </div>
+                  </div>
+                  <div style="padding: 16px; border-radius: 100px; border: 0.50px white solid; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                    <div style="color: white; font-size: 24px; font-family: Plus Jakarta Sans; font-weight: 400; line-height: 30px; word-wrap: break-word">Hubungi Kami</div>
+                    <div style="padding: 4px; border-radius: 100px; justify-content: center; align-items: center; gap: 10px; display: flex">
+                      <div style="width: 24px; height: 24px; padding-top: 1px; padding-bottom: 2.07px; padding-left: 2.11px; padding-right: 1px; justify-content: center; align-items: center; display: flex">
+                        <div style="width: 20.89px; height: 20.93px; border: 2px white solid"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="width: 516px; height: 516px; left: 800px; top: 48px; position: absolute">
+                  <img style="width: 250px; height: 250px; left: 0px; top: 266px; position: absolute; border-radius: 15px" src="assets/frame 40.png" />
+                  <img style="width: 250px; height: 250px; left: 266px; top: 266px; position: absolute; border-radius: 15px" src="assets/frame 41.png" />
+                  <img style="width: 250px; height: 250px; left: 0px; top: 0px; position: absolute; border-radius: 15px" src="assets/frame 42.png" />
+                  <img style="width: 250px; height: 250px; left: 266px; top: 0px; position: absolute; border-radius: 15px" src="assets/frame 43.png" />
+                </div>
+              </div>
+        </section>
+
+        <section>
+            <div style="width: 1440px; height: 447px; position: relative">
+                <div style="width: 1440px; height: 447px; left: 0px; top: 0px; position: absolute; background: #43936C"></div>
+                <div style="width: 1270px; height: 303px; left: 98px; top: 70px; position: absolute">
+                  <div style="left: 404px; top: 0px; position: absolute; justify-content: flex-start; align-items: flex-start; gap: 64px; display: inline-flex">
+                    <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                      <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                        <div style="color: white; font-size: 18px; font-family: Red Hat Text; font-weight: 500; line-height: 30px; word-wrap: break-word">Features</div>
+                        <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Peduli Ai</div>
+                        <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Ruang Cerita</div>
+                        <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Edukasi</div>
+                        <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Artikel</div>
+                      </div>
+                    </div>
+                    <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: inline-flex">
+                      <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                        <div style="color: white; font-size: 18px; font-family: Red Hat Text; font-weight: 500; line-height: 30px; word-wrap: break-word">About Us</div>
+                        <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Contact Number</div>
+                        <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Social Media</div>
+                        <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Email</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="height: 137px; padding-bottom: 30px; left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 13px; display: inline-flex">
+                    <div style="width: 64px; height: 64px; justify-content: center; align-items: center; display: inline-flex">
+                      <img style="width: 64px; height: 64px" src="https://via.placeholder.com/64x64" />
+                    </div>
+                    <div style="width: 191px; color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 700; line-height: 30px; word-wrap: break-word">Finelify</div>
+                  </div>
+                  <div style="width: 1269px; left: 1px; top: 246px; position: absolute; justify-content: space-between; align-items: center; display: inline-flex">
+                    <div style="width: 245px; color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">@Copyright Finelify<br/>All rights reserved</div>
+                    <div style="justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                      <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Terms of Service</div>
+                      <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Privacy Policy</div>
+                      <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Partners & Affiliates</div>
+                      <div style="color: white; font-size: 16px; font-family: Red Hat Text; font-weight: 400; line-height: 30px; word-wrap: break-word">Sitemap</div>
+                    </div>
+                    <div style="justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+                      <div style="padding: 16px; background: #D9E9E2; border-radius: 100px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+                        <div style="width: 16px; height: 16px; padding-top: 1.27px; padding-bottom: 1.47px; padding-left: 0.67px; padding-right: 0.67px; justify-content: center; align-items: center; display: flex">
+                          <div style="width: 14.67px; height: 13.26px; background: #2C5148"></div>
+                        </div>
+                      </div>
+                      <div style="padding: 16px; background: #D9E9E2; border-radius: 100px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+                        <div style="width: 16px; height: 15.94px; background: #2C5148"></div>
+                      </div>
+                      <div style="padding: 16px; background: #D9E9E2; border-radius: 100px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+                        <div style="width: 16px; height: 16px; justify-content: center; align-items: center; display: flex">
+                          <div style="width: 16px; height: 16px; background: #2C5148"></div>
+                        </div>
+                      </div>
+                      <div style="padding: 16px; background: #D9E9E2; border-radius: 100px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+                        <div style="width: 16px; height: 16px; position: relative">
+                          <div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute; background: #2C5148"></div>
+                          <div style="width: 8.69px; height: 7.20px; left: 3.02px; top: 4.82px; position: absolute; background: white"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+    </section>
+
+
+</body>
+</html>
